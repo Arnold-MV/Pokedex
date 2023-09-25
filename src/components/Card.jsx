@@ -26,7 +26,7 @@ const Card = () => {
     <div className='relative  sm:rounded-2xl lg:h-[40.313rem] lg:w-[70.188rem]  sm:w-4/5 h-full text-white bg-gradient-to-b from-[#242424] to-black w-full sm:h-[812px] font-bold flex flex-col justify-center items-center gap-4'>
 
       {pokemon && (
-        <div className=' flex flex-col items-center lg:flex-row justify-between w-full h-full   bg-[url(src/assets/img/image2.png)] md:bg-[url(src/assets/img/image1.png)] bg-no-repeat bg-right md:bg-center' key={pokemon.id}>
+        <div className='flex flex-col items-center justify-between w-full h-full bg-right bg-no-repeat lg:flex-row bg-mobile lg:bg-[url(src/assets/img/image1.png)] lg:bg-center' key={pokemon.id}>
           <div className='flex flex-col items-center justify-start w-full h-full pt-5 lg:justify-around lg:w-1/2'>
             <div className='block w-full px-9 h-[4.375rem]'>
               <h1 className='text-4xl first-letter:uppercase'>{pokemon.name}</h1>

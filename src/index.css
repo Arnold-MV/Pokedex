@@ -21,3 +21,7 @@
 .steel{ background-color: #B8B8D0;}
 .fairy{ background-color: #F0B6BC;} 
 
+.bg-mobile {
+  background-image: url('src/assets/img/image2.png');
+}
+
